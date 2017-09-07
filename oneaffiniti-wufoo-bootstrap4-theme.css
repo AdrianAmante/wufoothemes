@@ -10,21 +10,21 @@
 }
 .wufoo .info div {
 }
-.wufoo li {
+.wufoo  {
     margin-bottom: 1rem;
 }
-.wufoo li.section section {
+.wufoo .section section {
 }
-.wufoo li.section section h3, .wufoo li.likert table caption {
+.wufoo .section section h3, .wufoo .likert table caption {
     font-weight: 600;
     font-size: 130%;
 }
-.wufoo li.section section h3 {
+.wufoo .section section h3 {
 	border-top:  1px solid #f5f5f5;
 }
-.wufoo li.section section div, .wufoo li.likert table div {
+.wufoo .section section div, .wufoo .likert table div {
 }
-.wufoo li.focused {
+.wufoo .focused {
  background-color: #f5f5f5;
 }
 .wufoo span.req {
@@ -39,7 +39,7 @@
     margin-bottom: .5rem;
 }
 
-.wufoo li input.field, .wufoo li input.field, .wufoo li textarea.textarea, .wufoo select.select {
+.wufoo  input.field, .wufoo  input.field, .wufoo  textarea.textarea, .wufoo select.select {
 	display: block;
 	width: calc(100% - 1.6rem) ;
 	padding: .5rem .75rem;
@@ -54,28 +54,28 @@
 	transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 }
 
-.wufoo li textarea.textarea {
+.wufoo  textarea.textarea {
 	min-width: 82%;
 	max-width: 95.5%;
 }
 
-.wufoo li select.select {
+.wufoo  select.select {
 	width: 100%;
 }
 
-.wufoo li input.file {
+.wufoo  input.file {
 	max-width: 250px;
 }
 
-.wufoo li input.currency {
+.wufoo  input.currency {
 	max-width: 100px;
 }
 
-/*.wufoo li span {
+/*.wufoo  span {
     float: left;
 }*/
 
-.wufoo li.complex input.field, .wufoo li.complex input.field, .wufoo li.complex textarea.textarea, .wufoo li.complex select.select {
+.wufoo .complex input.field, .wufoo .complex input.field, .wufoo .complex textarea.textarea, .wufoo .complex select.select {
 	display: block;
 	width: calc(100% - 1.6rem) ;
 	padding: .5rem .75rem;
@@ -90,41 +90,41 @@
 	transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 }
 
-.wufoo li.complex textarea.textarea {
+.wufoo .complex textarea.textarea {
 	min-width: 82%;
 	max-width: 95.5%;
 }
 
-.wufoo li.complex select.select {
+.wufoo .complex select.select {
 	width: 100%;
 }
 
-.wufoo li.time span.ampm select.select {
+.wufoo .time span.ampm select.select {
 	width: 5em !important;
 }
 
-.wufoo li .instruct {
+.wufoo  .instruct {
 	background: #08A5DC;
     border-color: #08A5DC;
 }
 
-.wufoo li .instruct small {
+.wufoo  .instruct small {
     color: #ffffff;
 }
 
-.wufoo li span.symbol {
+.wufoo  span.symbol {
 	margin-top: 5px;
 }
 
 
-.wufoo li.likert table, .wufoo li.likert th, .wufoo li.likert td  {
+.wufoo .likert table, .wufoo .likert th, .wufoo .likert td  {
 	border-color: #e9ecef;
 }
 
-.wufoo li.likert table thead tr td, .wufoo li.likert table thead tr th {
+.wufoo .likert table thead tr td, .wufoo .likert table thead tr th {
 	background-color: #e9ecef;
 }
-.wufoo li.likert tbody tr:hover td, .wufoo li.likert tbody tr:hover th, .wufoo li.likert tbody tr:hover label {
+.wufoo .likert tbody tr:hover td, .wufoo .likert tbody tr:hover th, .wufoo .likert tbody tr:hover label {
     background-color: #daf2fa;
 	border-color: #e9ecef;
 }
